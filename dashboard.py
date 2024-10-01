@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 st.title("Dashboard Analisis Data Penyewaan Sepeda")
 
 # Mengimpor Data
-day_df = pd.read_csv("C:/Study Independent/Submission(New)/data/day.csv")
-hour_df = pd.read_csv("C:/Study Independent/Submission(New)/data/hour.csv")
+day_df = pd.read_csv("day.csv")
+hour_df = pd.read_csv("hour.csv")
 
 # Menampilkan Statistik Deskriptif
 st.header("Statistik Deskriptif")
